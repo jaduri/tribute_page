@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f0f0;
+}
+#main {
+  background-color: ;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-width: 400px;
+  max-width: 1500px;
+  padding-top: 100px;
+}
+
+#title {
+  background-color: #3d3d3d;
+  border: 10px double #cccccc;
+  border-radius: 20px;
+  font-size: 50px;
+  font-family: "Titillium Web", sans-serif;
+  color: #fff;
+  line-height: 1.2;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 600px;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  align-self: center;
+  text-align: center;
+  width: 50%;
+}
+
+#title-compliment {
+  border-top: 1px solid #c28e00;
+  border-bottom: 1px solid #c28e00;
+  color: #cccccc;
+  font-size: 16px;
+  font-weight: normal;
+}
+#img-div{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+  max-width: 1300px;
+}
+#image {
+  box-shadow: 0 0 8px;
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+#img-caption {
+  background-color: #3d3d3d;
+  border-radius: 0 0 4px 4px;
+  color: #cccccc;
+  text-align: center;
+  font-family: arial;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0;
+  width: 50%;
+  min-width: 300px;
+  max-width: 100%;
+  padding: 4px;
+}
+.heading{
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+#tribute-info {
+  border-radius: 8px;
+  color: #666262;
+  font-family: "Noto Sans JP", helvetica;
+  font-size: 1.3rem;
+  line-height: 2;
+  max-width: 75%;
+  margin: 0 auto 50px;
+  padding: 30px;
+}
+#tribute-link{
+  color: #c28e00;
+}
+
+#tribute-highlights {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#tribute-highlights>div{
+  margin-top: 30px;
+}
+
+.highlight{
+  border-radius: 10px;
+  display: flex;
+  height: 400px;
+  margin: auto;
+  width: 90%;
+  box-shadow: 0 0 15px lightgray;
+}
+.highlight:nth-child(even){
+  background-color: #3d3d3d;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: hidden;
+  width: 50%;
+}
+.dark{
+  color: #fff;
+}
+.light{
+  color: #000;
+}
+.description h2{
+  font-family: "Open Sans";
+  text-align: center;
+  text-decoration: underline solid #c28e00;
+}
+.description p{
+  font-family: "Open Sans";
+  opacity: 0;
+  height: 0;
+  transition: 0.5s ease-in-out;
+  margin: 0 auto;
+  max-width: 350px;
+}
+.description:hover p{
+  opacity: 1;
+  height: 50%;
+}
+.illustration{
+  width: 50%;
+}
